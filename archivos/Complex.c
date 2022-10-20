@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "complejo.h"
+#include "complex.h"
 
 Complejo *creacionComplejo(int real, int imaginario){
     Complejo *nvo = (Complejo*) malloc(sizeof(Complejo));
