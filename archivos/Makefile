@@ -1,5 +1,5 @@
 calc1: lex.yy.c y.tab.c y.tab.h
-	cc -std=c99 -o calc1 lex.yy.c y.tab.c -ll -ly
+	gcc -o calc1 lex.yy.c y.tab.c
 lex.yy.c:	calc1.l
 	flex calc1.l
 y.tab.c: calc1.y	
