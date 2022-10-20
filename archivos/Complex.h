@@ -5,6 +5,7 @@ struct complejo{
 };
 
 typedef struct complejo Complejo;
+typedef struct complejo *Complejo;
 //typedef struct complejo *ComplejoAP;
 
 Complejo *creacionComplejo(int real, int imaginario);
